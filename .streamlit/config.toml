@@ -1,0 +1,23 @@
+# Light and dark themes (users switch in the app menu → Settings).
+[theme]
+font = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap, 'Helvetica Neue', Arial, sans-serif"
+headingFont = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap, 'Helvetica Neue', Arial, sans-serif"
+baseRadius = "medium"
+
+[theme.light]
+primaryColor = "#1F4E8C"
+backgroundColor = "#EDF0F3"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14213D"
+
+[theme.dark]
+primaryColor = "#7FA8E0"
+backgroundColor = "#0F1726"
+secondaryBackgroundColor = "#172238"
+textColor = "#E6EBF3"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+runOnSave = false

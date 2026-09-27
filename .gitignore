@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/app.db
+data/cache/*
+!data/cache/.gitkeep
+# Bloomberg exports: analysis/demo only, never redistribute
+data/manual_inputs.csv

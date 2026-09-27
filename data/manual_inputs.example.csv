@@ -1,0 +1,4 @@
+country,spread_bp,spread_1m_bp,cds_5y_bp,local_10y,fx_1m_pct,fx_12m_pct,text_signal,note
+# Copy to data/manual_inputs.csv and fill from Bloomberg (BDH). FX: + = local currency weakened vs USD.
+# Empty cells keep the existing value. Example row (made-up numbers, replace them):
+# Egypt,620,45,,24.0,3.1,,,"example only"
